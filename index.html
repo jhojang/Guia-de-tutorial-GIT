@@ -34,7 +34,7 @@
                     <div class="right">
 
                             <h2>2. Crea un repositorio nuevo git</h2>
-                            <a >Crear un a carpeta nueva y dentro de esta ejecuta</a>
+                            <a style="display:block;">Crear un a carpeta nueva y dentro de esta ejecuta</a>
                             </br>
                             <h3>Git init</h3>
                             </br>
@@ -44,12 +44,50 @@
                     <div class="right">
 
                             <h2>3. Hacer checkout a un nuevo repositorio</h2>
-                            <a >Crear un a carpeta nueva y dentro de esta ejecuta</a>
+                            <a >Crea una copia local del repositorio ejecutando</a>
                             </br>
-                            <h3>Git init</h3>
+                            <h3>git clone /path/to/repositorio</h3>
                             </br>
-                            <a>para crear un repositorio nuevo</a>
+                            <a>Si utilizas un servidor remoto, ejecuta</a>
+                            </br>
+                            <h3>git clone username@host:/path/to/repositorio</h3>
    
+                    </div>
+
+                    <div class="right">
+
+                            <h2>4. add y commit</h2>
+                            <a >Puedes registrar cambios (añadirlos al Index) usando</a>
+                            </br>
+                            <h3>git add <filename></h3>
+                            </br>
+                            <h3>git add .</h3>
+                            </br>
+                            <a>Este es el primer paso en el flujo de trabajo básico. Para hacer commit a estos cambios usa</a>
+                            </br>
+                            <h3>git commit -m "Commit message"</h3>
+                            </br>
+                            <a>Ahora el archivo esta incluído en el HEAD, pero aún no en tu repositorio remoto</a>
+                    </div>
+
+                    <div class="right">
+
+                            <h2>5. envío de cambios</h2>
+                            <a>Tus cambios están ahora en el HEAD de tu copia local. Para enviar estos cambios a tu repositorio remoto ejecuta</a>
+                            </br>
+                            <h3>git push origin master</h3>
+                            <h3>git add .</h3>
+                            </br>
+                            <a>Reemplaza master por la rama a la que quieres enviar tus cambios.</a>
+                            </br>
+                            <a>Si no has clonado un repositorio ya existente y quieres conectar tu</a>
+                            </br>
+                            <a>repositorio local a un repositorio remoto, usa</a>
+                            </br>
+                            <h3>git remote add origin <server></h3>
+                            </br>
+                            <a>Ahora podrás subir tus cambios al repositorio remoto seleccionado.</a>
+                            
                     </div>
             </div>
                 <figure>
