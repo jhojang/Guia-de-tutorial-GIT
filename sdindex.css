@@ -1,5 +1,12 @@
-.left {
-    color: blue;
-    margin-left: 500px;
+.left { 
+    color: gainsboro;
     font-size: 25px;
+    background-color: darkblue;
+    text-align:center;
+}
+.right {
+    background-color: lightblue;
+    color: darkslategray;
+    text-align:center;
+
 }
