@@ -1,4 +1,5 @@
-body {
+.left {
     color: blue;
-    margin: auto;
+    margin-left: 500px;
+    font-size: 25px;
 }
